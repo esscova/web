@@ -1,5 +1,7 @@
 # Projeto de API Bancária 🏦
 
+![](./public/images/print.png)
+
 Este projeto é uma API RESTful simples que simula operações bancárias como criação de contas, depósitos, saques, consulta de saldo e extratos bancários. Desenvolvido com o framework Express.js, permite gerenciar clientes e suas transações de forma eficiente e prática.
 
 ## Funcionalidades
