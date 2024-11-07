@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f6f9ff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #434343;
+}
+h2{
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+.cards{    
+    height: 300px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    width: 300px;
+    border-radius: 1rem;
+    gap: .5rem;
+    box-shadow: 20px 20px 50px -30px rgba(0,0,0,0.6);
+    text-align: center;
+}
+.card button{
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: linear-gradient(to right,#5f2183,#564bb7);
+    color: #fff;    
+}
+.card__img{    
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-1{
+    background-image: url(../image/universo.png);
+}
+.image-2{
+    background-image: url(../image/universo-2.png);
+}
+.image-3{
+    background-image: url(../image/pergunta.png);
+}
+
+
+@media screen and (max-width: 768px){
+    .cards{
+        max-width: 768px;
+        flex-wrap: wrap; 
+        justify-content: center;       
+    }
+    .card{
+        width: 45%;
+        margin-bottom: 1rem;
+    }
+    .card__img{
+        height: 150px;
+    }
+    .card h3{
+        font-size: 1.2rem;
+    }
+    .card span{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 425px){
+  
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.cards{
+        width: 90%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card__img{
+        height: 120px;
+    }
+    
+}
