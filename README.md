@@ -8,9 +8,13 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 
 
 ## Conteúdo
-- [API de operações bancárias](./api-CRUD-financas[exp])
-- [Calculadora JavaScript](./app-calculadora[js])
-- [Componentes](./componentes)
+- ### APIs
+	- [API de operações bancárias](./api-CRUD-financas[exp])
+- ### Misc
+	- [Calculadora JavaScript](./app-calculadora[js])
+	- [Componentes](./componentes)
+- ### Sites
+	- [Barbershop](./site-barbershop)
 
 **Contribuições**
 
