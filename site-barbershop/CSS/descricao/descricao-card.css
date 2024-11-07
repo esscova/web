@@ -1,0 +1,26 @@
+.descricao__card{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem1 {
+    background-image: url('../../Img/utensilios.png');
+    order:2;
+    
+}
+
+.imagem2{
+    background-image: url('../../Img/utensilios2.png');
+    order: 3;
+    
+    
+}
+
+.imagem3 {
+    background-image: url('../../Img/utensilios3.png');
+    order: 1;
+}

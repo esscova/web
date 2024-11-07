@@ -1,0 +1,11 @@
+.menu__navegacao-link{    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.menu__navegacao-link:hover{
+    text-decoration: underline;
+    color: var(--cor-rodape);
+    transition: 500ms;
+}    
