@@ -1,0 +1,4 @@
+.mapa__localizacao{
+    display: flex;
+    justify-content: space-around;
+}

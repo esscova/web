@@ -1,0 +1,16 @@
+.card__imagem{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.corte{
+    background-image: url(../../Img/cabelo.jpg);
+}
+.barba{
+    background-image: url(../../Img/barba.jpg);    
+}
+.corteBarba{
+    background-image: url(../../Img/cabelo+barba.jpg);
+}

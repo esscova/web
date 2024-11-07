@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The BarberShop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./Img/logo.png" alt="BarberShop logo" class="cabecalho__logo">
+        <nav class="cabecalho__menu">
+            <ul class="menu__navegacao">
+                <li class="menu__navegacao-item"><a class="menu__navegacao-link" href="#">Home</a></li>
+				<li class="menu__navegacao-item"><a class="menu__navegacao-link" href="#">serviços</a></li>
+				<li class="menu__navegacao-item"><a class="menu__navegacao-link ativo" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__imagem"></div>
+            <h1 class="banner__titulo">The BarberShop</h1>
+        </section>
+
+        <section class="descricao"> 
+            <h2 class="descricao__titulo sub-titulo">Um pouco mais sobre nós</h2>
+
+            <div class="descricao__texto">
+                <p class="descricao__texto-textos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ea magni tenetur atque et maxime voluptatibus saepe, at ipsa iste, sit facere asperiores minus eveniet reiciendis distinctio. Veniam, obcaecati molestiae!</p>
+                <p class="descricao__texto-textos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt enim amet fugiat molestias, facere hic!</p>
+                <p class="descricao__texto-textos ativo">Rem tempora cupiditate facilis dignissimos harum, commodi modi quibusdam repudiandae earum accusamus, sit ex recusandae?</p>
+            </div>
+            
+            <div class="descricao__imagem">
+                <div class="descricao__card imagem1"></div>
+                <div class="descricao__card imagem2"></div>
+                <div class="descricao__card imagem3"></div>
+            </div>
+
+        </section> 
+        <section class="mapa">
+            <div class="mapa__localizacao">
+                <ul class="mapa__menu">
+                    <h2 class="mapa__titulo sub-titulo">Onde nos encontrar</h2>
+                    <li class="mapa__menu-item"><i class="fa-regular fa-map icone"></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li class="mapa__menu-item"><i class="fa-brands fa-whatsapp icone"></i>(XX) XXXX - XXXX</li>
+                    <li class="mapa__menu-item"><i class="fa-brands fa-instagram icone"></i><a  href="https://www.instagram.com" target="_blank" >@seuinstagram</a></li>
+                </ul>
+                <iframe class="mapa__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.067042058526!2d-43.46977112907477!3d-22.762893133732675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967f809a644a3%3A0x9c3ec3d5526e1803!2sShopping%20Nova%20Igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1694554048099!5m2!1spt-BR!2sbr style="border:0; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+        <section class="servicos">
+            <h2 class="servicos__titulo sub-titulo">Nossos serviços</h2>
+            
+            <div class="servicos__card">
+                <div class="servicos__card-container">
+                    <div class="card__imagem corte"></div>
+                    <h3 class="card__imagem-titulo">Corte de cabelo</h3>
+                    <p class="card-imagem-texto">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="card__imagem-preco">R$0,00</p>
+                </div>
+                <div class="servicos__card-container">
+                    <div class="card__imagem barba"></div>
+                    <h3 class="card__imagem-titulo">Barba</h3>
+                    <p class="card-imagem-texto">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="card__imagem-preco">R$0,00</p>
+                </div>
+                <div class="servicos__card-container">
+                    <div class="card__imagem corteBarba"></div>
+                    <h3 class="card__imagem-titulo">Corte de cabelo e Barba</h3>
+                    <p class="card-imagem-texto">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="card__imagem-preco">R$0,00</p>
+                </div>
+            </div>
+        </section>        
+    </main>
+        <footer class="rodape">
+        <p class="rodape__texto">&#174; Desenvolvido por wm </p>
+    </footer>
+
+</body>
+</html>

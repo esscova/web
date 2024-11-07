@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+
+@import url(./cabecalho/cabecalho.css);
+@import url(./cabecalho/cabecalho-logo.css);
+@import url(./cabecalho/menu-navegacao.css);
+@import url(./cabecalho/menu-navegacao-item.css);
+@import url(./cabecalho/menu-navegacao-link.css);
+@import url(./banner/banner.css);
+@import url(./banner/banner-imagem.css);
+@import url(./banner/banner-titulo.css);
+@import url(./descricao/descricao.css);
+@import url(./descricao/descricao-imagem.css);
+@import url(./descricao/descricao-titulo.css);
+@import url(./descricao/descricao-card.css);
+@import url(./descricao/descricao-texto.css);
+@import url(./descricao/descricao-texto-textos.css);
+@import url(./servicos/servicos.css);
+@import url(./servicos/servicos-titulo.css);
+@import url(./servicos/servicos-card.css);
+@import url(./servicos/servicos-card-container.css);
+@import url(./servicos/card-imagem.css);
+@import url(./servicos/card-imagem-titulo.css);
+@import url(./servicos/card-imagem-preco.css);
+@import url(./mapa/mapa.css);
+@import url(./mapa/mapa-localizacao.css);
+@import url(./mapa/mapa-menu.css);
+@import url(./mapa/mapa-menu-item.css);
+@import url(./mapa/mapa-iframe.css);
+@import url(./diferencial/diferencial.css);
+@import url(./diferencial/diferencial-imagem.css);
+@import url(./diferencial/diferencial-imagemCitacao.css);
+@import url(./diferencial/diferencial-citacao.css);
+@import url(./diferencial/diferencial-citacao-texto.css);
+
+
+:root{
+	--cor-fundo2: #c8c8c8;
+	--cor-fundo:#fefefe;
+	--cinza: #888888;
+	--cor-rodape: #242c2a;
+	--opensans: 'Open Sans', sans-serif;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.ativo{
+	color: black;
+	font-weight: bold;
+}
+.sub-titulo{
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--cinza);
+    text-align: center;
+	text-transform: uppercase;
+}
+
+footer{
+	color: white;
+	padding: 3rem;
+	background-color: var(--cor-rodape);	
+}

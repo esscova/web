@@ -1,0 +1,16 @@
+.mapa__menu-item{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icone{
+    font-size: 2rem;
+    color: var(--cinza);
+    padding-bottom: 0.5rem;
+}
+
+.mapa__menu-item a{
+    text-decoration: none;
+}

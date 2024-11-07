@@ -1,0 +1,7 @@
+.descricao__texto-textos{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem ;
+    margin-bottom: 1rem;
+    font-family: var(--opensans);
+}
