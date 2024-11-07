@@ -8,11 +8,9 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 
 
 ## Conteúdo
-[API de operações bancárias](./api-CRUD-financas[exp])
->Este projeto é uma API RESTful simples que simula operações bancárias como criação de contas, depósitos, saques, consulta de saldo e extratos bancários. Desenvolvido com o framework Express.js, permite gerenciar clientes e suas transações de forma eficiente e prática.
-
-[Calculadora JavaScript](./app-calculadora[js])
->Projeto prático iniciante para aprender a desenvolver uma calculadora com HTML, CSS e JavaScript.
+- [API de operações bancárias](./api-CRUD-financas[exp])
+- [Calculadora JavaScript](./app-calculadora[js])
+- [Componentes](./componentes)
 
 **Contribuições**
 
