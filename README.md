@@ -8,6 +8,8 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 
 
 ## Conteúdo
+- ### FullStack
+  	- [WebApp com FastApi](./webApp-hw[fastapi])
 - ### APIs
 	- [API de operações bancárias](./api-CRUD-financas[exp])
 - ### Misc
