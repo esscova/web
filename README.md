@@ -15,7 +15,7 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 	- [Componentes](./componentes)
 - ### Sites
 	- [Barbershop](./site-barbershop)
-	- [iMobi](./site-imovi[bootstrap)
+	- [iMovi](./site-imov[bootstrap])
 	- [Neon](./site-neon[scss])
 
 ## Contato
