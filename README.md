@@ -11,6 +11,7 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 - ### APIs
 	- [API de operações bancárias](./api-CRUD-financas[exp])
 - ### Misc
+	- [Dashboard com gastos pessoais](./dashboard[js])
 	- [Calculadora JavaScript](./app-calculadora[js])
 	- [Componentes](./componentes)
 - ### Sites
