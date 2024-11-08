@@ -14,9 +14,10 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 	- [Calculadora JavaScript](./app-calculadora[js])
 	- [Componentes](./componentes)
 - ### Sites
-	- [Barbershop](./site-barbershop)
-	- [iMovi](./site-imov[bootstrap])
 	- [Neon](./site-neon[scss])
+	- [iMovi](./site-imov[bootstrap])
+	- [StructBoost](./site-structboost[HTML,CSS])
+	- [Barbershop](./site-barbershop)
 
 ## Contato
 
