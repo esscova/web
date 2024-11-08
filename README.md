@@ -15,10 +15,7 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 	- [Componentes](./componentes)
 - ### Sites
 	- [Barbershop](./site-barbershop)
-
-**Contribuições**
-
-Se você deseja contribuir para este repositório, fique à vontade para abrir uma issue ou enviar um pull request. Suas sugestões e melhorias são sempre bem-vindas!
+	- [Neon](./site-neon[scss])
 
 ## Contato
 
