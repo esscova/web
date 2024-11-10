@@ -19,14 +19,31 @@ Esta é uma aplicação web de previsão de preços de moradias, utilizando **Fa
 - Previsão dinâmica exibida na página sem recarregar, utilizando **htmx**.
 - Validação básica de inputs para evitar erros no envio de dados inválidos.
 
+## Sobre o modelo treinado
+Este modelo de regressão foi treinado com base no dataset `Boston housing`. O objetivo principal foi identificar o modelo de regressão que melhor prediz o valor médio dos imóveis, com base em métricas como o coeficiente de determinação R², MAE (erro absoluto médio), MSE (erro quadrático médio), e RMSE (raiz do erro quadrático médio).
+
+**Métricas do modelo**
+
+```
+R² (Treino): 91.60%
+R² (Teste): 84.65%
+MAE: 49,730.29
+MSE: 4,452,803,054.51
+RMSE: 66,729.32
+```
+    
+>Você pode conferir o repositório com o projeto completo onde vários modelos foram treinados e suas métricas avaliadas em [Boston housing prediction](https://github.com/esscova/data-science/blob/main/regression/boston_housing)
+
+## Requisitos
+
+- Python 3.7+
+- Scikit-learn
+- FastAPI
+- htmx
+
 ## Instalação
 
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/esscova/fullstack.git
-   cd fullstack/boston-housing-prediction-app
-   ```
+1. **Clone o repositório**
 
 2. **Crie e ative um ambiente virtual:**
 
@@ -41,27 +58,13 @@ Esta é uma aplicação web de previsão de preços de moradias, utilizando **Fa
    pip install -r requirements.txt
    ```
 
-4. **Sobre o modelo treinado:**
-   - Este modelo de regressão foi treinado com base no dataset `Boston housing`. O objetivo principal foi identificar o modelo de regressão que melhor prediz o valor médio dos imóveis, com base em métricas como o coeficiente de determinação R², MAE (erro absoluto médio), MSE (erro quadrático médio), e RMSE (raiz do erro quadrático médio).
-
-   - Métricas do modelo
-        ```    
-        R² (Treino): 91.60%
-        R² (Teste): 84.65%
-        MAE: 49,730.29
-        MSE: 4,452,803,054.51
-        RMSE: 66,729.32
-        ```
-    - Você pode conferir o repositório com o projeto completo onde vários modelos foram treinados e suas métricas avaliadas em [Boston housing prediction](https://github.com/esscova/data-science/tree/main/regressao/Boston%20Housing)
-
-
-5. **Execute a aplicação:**
+4. **Execute a aplicação:**
 
    ```bash
    uvicorn main:app --reload
    ```
 
-6. **Acesse a aplicação:**
+5. **Acesse a aplicação:**
 
    Abra seu navegador e acesse `http://127.0.0.1:8000`.
 
@@ -88,13 +91,6 @@ Na página inicial, insira os valores para:
 - **Proporção de alunos x professor** (ex: 18).
 
 Após submeter o formulário, a previsão será exibida diretamente na página.
-
-## Requisitos
-
-- Python 3.7+
-- Scikit-learn
-- FastAPI
-- htmx
 
 ## Contribuição
 
