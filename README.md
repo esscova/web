@@ -10,6 +10,7 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 ## Conteúdo
 - ### FullStack
   	- [WebApp com FastApi](./webApp-hw[fastapi])
+  	- [webApp para previsão do preço de casas](./webApp-housing[fastapi,jinja,htmx,scikit])
 - ### APIs
 	- [API de operações bancárias](./api-CRUD-financas[exp])
 - ### Misc

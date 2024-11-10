@@ -1,0 +1,52 @@
+<form
+        class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-5xl"
+        action="/previsao"
+        method="post"
+        hx-post="/previsao"
+        hx-target="#resultado-previsao"
+        hx-swap="innerHTML"
+    > 
+        <div class="flex flex-wrap mb-4 -mx-2">
+            <div class="w-full md:w-1/3 px-2 mb-4">
+                <label for="comodos" class="block text-gray-700 text-sm font-bold mb-2">Quantidade de cômodos</label>
+                <input 
+                    type="number" 
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+                    id="comodos"
+                    placeholder="Cômodos"
+                    name="comodos"
+                >
+            </div>
+
+            <div class="w-full md:w-1/3 px-2 mb-4">
+                <label for="classe-baixa" class="block text-gray-700 text-sm font-bold mb-2">Percentual de classe média</label>
+                <input 
+                    type="number" 
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="classe-baixa"
+                    placeholder="Classe média"
+                    name="classe-baixa"
+                >
+            </div>
+
+            <div class="w-full md:w-1/3 px-2 mb-4">
+                <label for="aluno-professor" class="block text-gray-700 text-sm font-bold mb-2">Razão de alunos por professor</label>
+                <input 
+                    type="number" 
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="aluno-professor"
+                    placeholder="Alunos por professor"
+                    name="aluno-professor"
+                >
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center">
+            <button 
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="submit"
+            >
+            Prever
+            </button>
+        </div>
+    </form>
