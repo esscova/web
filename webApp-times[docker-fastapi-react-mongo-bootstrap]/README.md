@@ -28,7 +28,7 @@ Este projeto é um gerenciador de jogadores, permitindo o cadastro, edição, li
 1. Clone o repositório:
    ```bash
    git clone https://github.com/esscova/web.git
-   cd web/fullstack/farm
+   cd web/webApp-times[docker-react-fastapi-mongo-bootstrap]
    ```
 2. Crie e inicie os containers:
    ```bash
