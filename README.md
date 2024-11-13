@@ -9,6 +9,7 @@ Este repositório é dedicado ao aprendizado e à prática de desenvolvimento we
 
 ## Conteúdo
 - ### FullStack
+  	- [Gerencie os jogadores do seu time!](./webApp-times[docker-fastapi-react-mongo-bootstrap])
   	- [webApp para previsão do preço de casas](./webApp-housing[fastapi,jinja,htmx,scikit])
   	- [Aplicação que consome a API 'chuck norris facts' e renderiza cards traduzidos ](./webApp-cnorris[fastapi-jinja-htmx-tailwind])
   	- [WebApp com FastApi](./webApp-hw[fastapi])
